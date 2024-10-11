@@ -5,6 +5,10 @@
 }
 
 body {
+    background-image: url(Design\ sem\ nome.png);
+    background-size: cover; /* A imagem cobre toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
