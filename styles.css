@@ -29,11 +29,12 @@ body {
 }
   
 .amor{
-    font-size: 29px;
+    font-size: 100px;
     position: unset;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    left: 25px;
 }
 
 @media (max-width:600px){
