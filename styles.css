@@ -29,7 +29,7 @@ body {
 }
   
 .amor{
-    font-size: 200px;
+    font-size: 14px;
     position: relative;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,7 +38,7 @@ body {
 
 @media (max-width:600px){
   .amor{
-    padding: 10px;
+    padding: 25px;
   }  
 
 }
