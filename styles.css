@@ -5,6 +5,8 @@
 }
 
 body {
+    margin: 0;
+    height: 100vh; 
     background-image: url(Design\ sem\ nome.png);
     background-size: cover; /* A imagem cobre toda a área */
     background-position: center; /* Centraliza a imagem */
