@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 .conteudo {
-    display: flex;
+    display: inline;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -27,11 +27,7 @@ body {
         padding: 10px; /* Ajusta o padding em telas menores */
     }
 }
-@media (max-width: 601px) {
-    .conteudo {
-        display: inline; /* Ajusta o padding em telas menores */
-    }
-}
+  
 
 
 
