@@ -31,7 +31,14 @@ body {
 .amor{
     font-size: 29px;
     position: unset;
+    padding: 0;
 }
 
+@media (max-width:600px){
+  .amor{
+    padding: 10px;
+  }  
+
+}
 
 
