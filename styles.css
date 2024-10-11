@@ -27,6 +27,11 @@ body {
         padding: 10px; /* Ajusta o padding em telas menores */
     }
 }
+@media (max-width: 601px) {
+    .conteudo {
+        display: inline; /* Ajusta o padding em telas menores */
+    }
+}
 
 
 
