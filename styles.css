@@ -5,14 +5,27 @@
 }
 
 body {
-    margin: 0;
-    height: 100px; 
-    background-image: url(Design\ sem\ nome.png);
+    height: 100vh; /* Para ocupar toda a altura da tela */
+    background-image: url(Design\ sem\ nome.png); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* A imagem cobre toda a área */
     background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Para centrar o conteúdo verticalmente */
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding: 20px; /* Espaçamento interno */
+}
+
+@media (max-width: 600px) {
+    .conteudo {
+        padding: 10px; /* Ajusta o padding em telas menores */
+    }
 }
 
 header {
